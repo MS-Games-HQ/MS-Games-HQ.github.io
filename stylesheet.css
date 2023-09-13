@@ -5,16 +5,32 @@ body {
 }
 header{
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
 }
+
 h1{
-    margin-left: 5%;
-    float:right;
+    margin-left: 25px;
+    margin-right: auto;
+ 
 }
 nav{
-    float:right;
+    position: absolute;
+    margin:auto;
+
 }
 nav a{
-    float: right;
+  
     text-align: center; 
-    padding: 14px 35px;
+    margin-top: 15px;
+    padding: 10px 35px;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    background-color: rgba(211, 211, 211, 0.363);
+    border-radius: 5px;
+
 }
