@@ -10,7 +10,9 @@ h1{
     margin-left: 5%;
     float:left;
 }
-
+nav{
+    float:right;
+}
 nav a{
     float: right;
     text-align: center; 
