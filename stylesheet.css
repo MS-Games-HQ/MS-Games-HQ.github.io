@@ -5,10 +5,11 @@ body {
 }
 h1{
     margin-left: 5%;
-    width:auto;
+    width:50%;
 }
 nav{
     margin-right: 10% ;
+    width: 50%;
 }
 nav a{
     margin: 2%;
