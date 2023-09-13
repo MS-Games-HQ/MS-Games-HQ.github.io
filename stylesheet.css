@@ -3,9 +3,12 @@ body {
     color: white;
     margin:0;
 }
+header{
+    height : 30px;
+    margin-bottom: 20px;
+}
 h1{
     margin-left: 5%;
-
     float:left;
 }
 nav{
