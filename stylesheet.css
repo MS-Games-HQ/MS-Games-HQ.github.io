@@ -12,6 +12,7 @@ h1{
 }
 
 nav a{
-    float: left;
-    padding: 14px 16px;
+    float: right;
+    text-align: center; 
+    padding: 14px 35px;
 }
