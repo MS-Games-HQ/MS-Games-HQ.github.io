@@ -5,6 +5,7 @@ body {
 }
 header{
     height : 30px;
+    width: 100%;
     margin-bottom: 20px;
 }
 h1{
@@ -17,4 +18,5 @@ nav{
 }
 nav a{
     margin: 2%;
+    float: left;
 }
