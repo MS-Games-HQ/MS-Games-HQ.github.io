@@ -1,0 +1,26 @@
+
+body {
+    background-color: black;
+    color: white;
+    margin:0;
+}header{
+    height : 30px;
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+h1{
+    margin-left: 5%;
+    float:left;
+}
+nav{
+   float:right;
+
+}
+
+nav a{
+    margin: 2%;
+    float: left;
+    display:block;
+    padding: 14px 16px;
+}
