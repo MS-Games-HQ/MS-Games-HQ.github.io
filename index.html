@@ -16,7 +16,7 @@
         
         </header>
         <canvas id="unity-canvas" width=960 height=600 tabindex="-1" style="width: 960px; height: 600px; background: #231F20"></canvas>
-        <script src="Build/V0.12 Webgl 2.loader.js"></script>
+        <script src="Build/v0.121 webGL.loader.js"></script>
         <script>
           if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
             // Mobile device style: fill the whole browser client area with the game canvas:
@@ -34,9 +34,9 @@
           }
     
           createUnityInstance(document.querySelector("#unity-canvas"), {
-            dataUrl: "Build/V0.12 Webgl 2.data.unityweb",
-            frameworkUrl: "Build/V0.12 Webgl 2.framework.js.unityweb",
-            codeUrl: "Build/V0.12 Webgl 2.wasm.unityweb",
+            dataUrl: "Build/v0.121 webGL.data.gz",
+            frameworkUrl: "Build/v0.121 webGL.framework.js.gz",
+            codeUrl: "Build/v0.121 webGL.wasm.gz",
             streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
             productName: "ASP_AgileSpacePilot",
