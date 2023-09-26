@@ -26,7 +26,8 @@ nav a{
 #unity-canvas{
     background-color: grey;
     width: 80%;
-    height: auto;
+
+    height: 600px;
     
     margin: 10px 10%;
     
