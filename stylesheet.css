@@ -25,12 +25,9 @@ nav a{
 }
 #unity-canvas{
     background-color: grey;
-    width: 960px;
+    width: 80%;
 
-    height: 600px;
-    
+    height: 110%;
     margin: 10px 10%;
-    
-   
     float:left;
 }
