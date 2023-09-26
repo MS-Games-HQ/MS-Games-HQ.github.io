@@ -3,6 +3,7 @@ body {
     background-color: black;
     color: white;
     margin:0;
+    text-align: center;
 }header{
     height : auto;
     width: 100%;
@@ -24,6 +25,7 @@ nav a{
 #unity-canvas{
     background-color: grey;
     width: 80%;
+    height: auto;
     margin-left: 10%; 
     margin-right:10%;
     margin: 10px 10%;
