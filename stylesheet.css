@@ -25,5 +25,8 @@ nav a{
     padding: 14px 16px;
 }
 #unity-canvas{
-    padding: 15px;
+
+    margin-top: 15px;
+    margin:auto;
+    float:left;
 }
