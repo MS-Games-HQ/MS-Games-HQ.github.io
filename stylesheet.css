@@ -8,6 +8,7 @@ body {
     height : auto;
     width: 100%;
     overflow: hidden;
+    margin-bottom: 50px;
 }
 h1{
     float:left;
@@ -26,7 +27,7 @@ nav a{
     background-color: grey;
     width: 80%;
     height: auto;
-    padding-top: 50px;
+    
     margin: 10px 10%;
     
    
