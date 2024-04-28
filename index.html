@@ -16,7 +16,7 @@
         
         </header>
         <canvas id="unity-canvas"  tabindex="-1"></canvas>
-        <script src="Build/v0.123 webgl.loader.js"></script>
+        <script src="Build/v0.21 webgl.loader.js"></script>
         <script>
           if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
             // Mobile device style: fill the whole browser client area with the game canvas:
@@ -34,13 +34,13 @@
           }
     
           createUnityInstance(document.querySelector("#unity-canvas"), {
-            dataUrl: "Build/v0.123 webgl.data.unityweb",
-            frameworkUrl: "Build/v0.123 webgl.framework.js.unityweb",
-            codeUrl: "Build/v0.123 webgl.wasm.unityweb",
+            dataUrl: "Build/v0.21 webgl.data.unityweb",
+            frameworkUrl: "Build/v0.21 webgl.framework.js.unityweb",
+            codeUrl: "Build/v0.21 webgl.wasm.unityweb",
             streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
             productName: "ASP_AgileSpacePilot",
-            productVersion: "0.1",
+            productVersion: "0.21",
             // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
             // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
           });
